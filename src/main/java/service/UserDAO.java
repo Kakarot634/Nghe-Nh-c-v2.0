@@ -1,8 +1,7 @@
-package com.example.zingmp3.Model;
+package service;
 
-import com.example.zingmp3.Controller.User;
+import model.User;
 
-import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

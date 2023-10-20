@@ -1,8 +1,7 @@
-package com.example.zingmp3;
+package Controller;
 
-import com.example.zingmp3.Controller.Database;
-import com.example.zingmp3.Controller.User;
-import com.example.zingmp3.Model.UserDAO;
+import model.User;
+import service.UserDAO;
 
 import java.io.*;
 import java.util.List;

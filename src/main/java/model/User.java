@@ -1,25 +1,25 @@
-package com.example.zingmp3.Controller;
+package model;
 
 public class User {
     private int id;
     private String name;
     private String email;
-    private String phoneNum;
+    private String phone;
 
     public User() {
     }
 
-    public User(String name, String email, String phoneNum) {
+    public User(String name, String email, String phone) {
         this.name = name;
         this.email = email;
-        this.phoneNum = phoneNum;
+        this.phone = phone;
     }
 
-    public User(int id, String name, String email, String phoneNum) {
+    public User(int id, String name, String email, String phone) {
         this.id = id;
         this.name = name;
         this.email = email;
-        this.phoneNum = phoneNum;
+        this.phone = phone;
     }
 
     public int getId() {
@@ -45,10 +45,10 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
-    public String getPhoneNum(){
-        return phoneNum;
+    public String getPhone(){
+        return phone;
     }
-    public void setPhoneNum(String phoneNum){
-        this.phoneNum = phoneNum;
+    public void setPhone(String phone){
+        this.phone = phone;
     }
 }
