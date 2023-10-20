@@ -1,4 +1,6 @@
-package com.example.zingmp3.Controller;
+package Controller;
+
+import model.User;
 
 import java.util.ArrayList;
 import java.util.List;

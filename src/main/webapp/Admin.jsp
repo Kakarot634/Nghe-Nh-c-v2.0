@@ -7,7 +7,7 @@
   <title>Admin Page</title>
 </head>
 <body>
-<h1>User Information</h1>
+<h1>model.User Information</h1>
 <table>
   <tr>
     <th>ID</th>
